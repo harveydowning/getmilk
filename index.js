@@ -17,8 +17,10 @@ function getMilk(money) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
-    AmountOfBottles = Math.floor(money / 1.5)
-    Remainder = money % 1.5
+    AmountOfBottles = Math.floor(money / 1.5);
+    Remainder = money % 1.5;
+  return(AmountOfBottles)
+  
 }
 
 getMilk(40)
